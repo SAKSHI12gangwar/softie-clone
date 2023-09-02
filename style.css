@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_navbar{
+    margin-left: 60px;
+    display:flex;
+    font-size: 16px;
+}
+.nav1{
+    background-color:rgb(142, 194, 213);
+    display: flex;
+    gap:20px;
+    list-style: none;
+    height: 50px;
+}
+.nav1 a{
+    margin-top: 15px;
+    margin-left: 7px;
+    color:rgb(53, 51, 51);
+    font-size: 20px;
+    text-decoration: none;
+}
+.icons1{
+    display: flex;
+    margin-left: 45%;
+    list-style: none;
+    gap: 30px;
+}
+.logo_img img{
+    margin-top: 15px;
+    height: 8vh;
+}
+.logo_img{
+    height: 10vh;
+    width: 100%;
+    text-align: center
+}
+.line1{
+width: 90%;
+margin: auto;
+}
+.line1 div{  
+    border-top: 1px solid rgb(226, 204, 204);
+}
+.main_navbar2{
+    display: flex;
+    margin-top: 30px;
+}
+.nav2 a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 30px;
+    color: rgb(99, 85, 85);
+}
+.navbar2_icons{
+    margin-left:200px;
+}
+
+.navbar2_icons a{
+    margin-left: 10px;
+    font-size: 22px;
+    color: rgb(99, 85, 85) ;
+}
+.navbar2_collection{
+    display: flex;
+    width: 70%;
+    height: 10vh;
+    gap: 60px;
+
+}
+.navbar2_img1 img{
+    width:20vw;
+    height: 30vh;
+}
+.navbar2_img2 img{
+    width:20vw;
+    height: 30vh;
+}
+
+
+.nav-item:hover>.dropdown-menu{
+    display: inline;
+    display: flex;
+    gap: 60px;
+}
+
+.navbar2_carpetsLine div{
+    border-top: 1px solid rgb(99, 85, 85);
+    margin-top: -20px;
+    width: 110px;
+    margin-left: 45px;
+}
+.shop img{
+    width:400px;
+    height:400px;
+}
+.shop h3{
+    text-align: center;
+    color: rgb(99, 85, 85);
+}
+.nav-item:hover>.dropdown-menu div{
+    display: block;
+}
+.pregencyPillow{
+    color: black;
+    width: 100%;
+    position: relative;
+}
+.pregencyPillow img{
+    width: 100%;
+
+}
+.pregencyPillow div{
+    color: aqua;
+    margin-top: -30%;
+    font-size: 70px;
+    margin-left: 130px;
+    position: absolute;
+}
+.pregencyPillow h1{
+    margin-left: 100px;
+}
+.pregencyPillow pre{
+    font-size: 20px;
+    color: rgb(84, 73, 73);
+}
+.pregencyPillow button{
+    margin-left: 16%;
+    width: 30%;
+    font-size: 20px;
+    height:50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 7px 10px 3px rgb(230, 223, 223);
+}
+
+/* <------pahe2-------> */
+
+.what_a_new{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.what_a_new_title{
+    margin-top: 70px;
+    text-align: center;
+}
+.what_a_new pre{
+    color: rgb(128, 114, 114);
+}
+.what_a_new h1{
+    font-family: sans-serif;
+    color: rgb(23, 19, 19);
+}
+.Spring_mattress img{
+    width: 180px;
+    height: 180px;
+}
+
+/* <--------page3--------> */
+
+.You_may_be_looking_for{
+    text-align: center;
+    margin-top: 80px;
+}
+.page3_buttons button{
+    height: 50px;
+    width: 150px;
+    border: whitesmoke;
+    border-radius: 15px;
+    margin-top: 60px;
+    box-shadow: 0px 10px 10px 0px whitesmoke;
+    margin-left: 20px;
+}
+.You_may_be_looking_for h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 200px;
+}
+.You_may_be_looking_for h3{
+    font-size: 18px;
+    color: grey;
+}
+.You_may_be_looking_for h4{
+    font-size: 18px;
+    color: grey;
+}
+
+/* <-----page4----------> */
+
+.page4{
+    display: flex;
+    gap:2%;
+    justify-content: center;
+    margin-top: 150px;
+}
+.page4 img{
+    height: 400px;
+    width: 400px ;
+}
+.page4 div{
+    border: 1px solid whitesmoke;
+}
+.page4 h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.page4 h4{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* <-----------page5----------> */
+
+.backgroundimgpage5{
+    background-image: url(bg_3bd2010f-5200-42e8-8cb0-eacc4804654f.jpg);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 5%;
+
+}
+.backgroundimgpage5 img{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.backgroundimgpage5 h5{
+color: white;
+}
+.page5Right{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.page5Right h2{
+    color: skyblue;
+    font-family: sans-serif;
+}
+.page5Right p{
+    color: white;
+    font-family: sans-serif;
+}
+.page5Right button{
+    height: 60px;
+    background-color: white;
+    width: 20%;
+    border-radius: 10px;
+}
+
+/* <------------page6--------> */
+
+.ProductGallery{
+    margin-top: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(14, 11, 11);
+}
+.productGalleryImges{
+    display: flex;
+}
+.productGalleryImges img{
+    width: 420px;
+    height: 420px;
+    margin-top: 10%;
+}
+
+/* <-------page7----------> */
+
+.lastestCollection{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+.page7{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 5%;
+}
+.page7 img{
+    width: 400px;
+    height: 300px;
+    margin-top: 10%;
+}
+.page7 h6{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+.page7 h4{
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+.page7 p{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+.page7 button{
+    height: 50px;
+    width: 50%;
+    border: gray;
+    border-radius: 10px;
+    background-color:lightgrey;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.page7 div{
+    height: 60%;
+    background-color:whitesmoke;
+}
+.page7 button i{
+    margin-left: 10%;
+}
+
+/* <------page8----------> */
+
+.page8{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 80vh;
+    margin-top: 10%;
+}
+.newArrivals{
+    text-align: center;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+.newArrivalsLine1{
+    display: flex;
+}
+.page6Bar{
+    width: 70%;
+    height: 2px solid black;
+}
+.newArrivalsSubLINE1{
+    display: flex;
+}
+.newArrivalsLine1 img{
+    width: 100px;
+    height: 100px;
+}
+.mainDivNewArrival{
+    height: 80%;
+    width: 40%;
+    background-color:white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+}
+.fa-bucket{
+    margin-left: 120%;
+}
+
+/* <-----page9---------> */
+
+.page9{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+.page9 p{
+    margin-top: 2%;
+    font-family: sans-serif;
+}
+.page9 h2{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.page9Pics{
+    display: flex;  
+    position: relative;
+}
+.page9Pics img{
+    width: 558px;
+    height: 555px;
+    z-index: -1;
+    margin-top: 10%;
+}
+.page9text{
+    display: flex;
+}
+.page9text h4{
+    color: black;
+}
+.page9subdiv{
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10%;
+    color:black;
+    font-family: sans-serif;
+}
+.page9subdiv h3{
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+.page9subdiv h4{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.page9subdiv h5{
+    font-size: 20px;
+}
+.page9subdiv h6{
+    font-size: 17px;
+    margin-top: 8%;
+}
+.page9subdiv button{
+    border:none;
+    background-color: transparent;
+    margin-top: 10%;
+    font-size: 16px;
+}
+
+/* <---------page10-----------> */
+
+.page10{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+.page10maindiv{
+    background-color:lightgrey;
+    width: 100%;
+    height: 90vh;
+    margin-top: -5%;
+}
+.page10img img{
+    border-radius: 50%  50%;
+}
+.page10_1{
+    display: flex;
+}
+.page10_maindiv1{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 5%;
+}
+.page10_maindiv2{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 5%;
+}
+.page10 h4{
+    margin-top: 5%;
+    padding-top: 5%; 
+}
+.page10_1 p{
+    margin-left: 6%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.page10_1 span{
+    color: rgb(42, 156, 202);
+    font-family: sans-serif;
+}
+.page10_1 h5{
+    font-family: sans-serif;
+    margin-left: 5%;
+}
+
+/* <---------page11----------> */
+.page11{
+    display: flex;
+    gap:120px;
+    margin-top: 60px;
+    font-family: sans-serif;
+    color: rgb(37, 34, 34);
+
+}
+.fotter3 img{
+    width: 200px;
+    height: 200px;
+    
+}
+.fotter1{
+    margin-left: 40px;
+}
+.fotter1 span i{
+    margin-left: 20px;
+}
+.fotter2 button{
+margin-left: 45%;
+height: 40px;
+width: 90px;
+margin-top: 40px;
+}
+
+@media(max-width:480px){
+    /* <<<<<<<page1................. */
+
+    .main_navbar{
+        margin-left: 20px;
+        display: inline;
+        font-size: 5px;
+    }
+    .nav1{
+        background-color:rgb(142, 194, 213);
+        display: flex;
+        gap:8px;
+        list-style: none;
+        height: 100px;
+    }
+}
